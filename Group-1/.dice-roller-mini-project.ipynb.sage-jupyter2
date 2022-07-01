@@ -52,5 +52,5 @@
 {"cell_type":"markdown","id":"ebf81b","input":"## Section 2: Generating Random Numbers","pos":14,"type":"cell"}
 {"cell_type":"markdown","id":"f66ac4","input":"Try writting a while loop that prints out all the even numbers from 0 to 10, including 10, in the next block","pos":39,"type":"cell"}
 {"cell_type":"markdown","id":"f91647","input":"Now its your turn to try. Go ahead and write some code below asking the user to input some number that we will convert to an int. Then if it is a positive number, print out \"This is a positive number\", else, print out \"This is not a positive number\".","pos":10,"type":"cell"}
-{"id":0,"time":1656516860912,"type":"user"}
-{"last_load":1656512877641,"type":"file"}
+{"id":0,"time":1656686609080,"type":"user"}
+{"last_load":1656686610072,"type":"file"}
