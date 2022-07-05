@@ -23,5 +23,5 @@
 {"exec_count":134,"id":"be31d2","input":"\nfig.tight_layout()\nsns.countplot(data=churndf, x='NumOfProducts', hue='Exited', palette = 'Oranges')#Pretty common script\nplt.title('Amount of people exited in terms of number of products', fontsize=15, fontweight='bold')#made a heading and colored the plot\n","kernel":"ds_env","output":{"0":{"data":{"text/plain":"Text(0.5, 1.0, 'Amount of people exited in terms of number of products')"},"exec_count":134},"1":{"data":{"image/png":"0657dd9dfb122b0d03e25f0db013a1ac22f7d71f","text/plain":"<Figure size 936x720 with 1 Axes>"}}},"pos":18,"scrolled":false,"state":"done","type":"cell"}
 {"exec_count":145,"id":"44b641","input":"# Percentage of exited and non-exited5\neda_percentage = churndf['Exited'].value_counts(normalize = True).rename_axis('Exited').reset_index(name = 'Percentage') #made it count the percentage of exit v. non-exit\nax = sns.barplot(x = 'Exited', y = 'Percentage', data = eda_percentage, palette = 'Purples').set_title('Percentage of Exited v. Non-Exited',fontdict= {'fontsize': 14, 'fontweight':'bold'}) #X,Y parametrs and naming the plot","kernel":"ds_env","output":{"0":{"data":{"image/png":"1d0c60b76a1d1bab4e3e4067eb45044dc1cbce23","text/plain":"<Figure size 936x720 with 1 Axes>"}}},"pos":19,"scrolled":false,"state":"done","type":"cell"}
 {"id":"9353fe","input":"","pos":21,"type":"cell"}
-{"id":0,"time":1656686530266,"type":"user"}
-{"last_load":1656526231714,"type":"file"}
+{"id":0,"time":1657041741947,"type":"user"}
+{"last_load":1657032240321,"type":"file"}

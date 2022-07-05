@@ -53,5 +53,6 @@
 {"cell_type":"markdown","id":"f55668","input":"### Step 2: Do your research\n\nWhat do the column names mean? At this point you should look up the meanings of any columns you don't know about and make some comments below. \n\nTypically at this point we would read up on the domain we are performing data analysis on. To do research on penguins you should probably get to know something about penguins!\n\n","pos":10,"type":"cell"}
 {"cell_type":"raw","id":"550816","input":"What do these columns mean?\n\nThose colums basically means all the information about particullar penguin.\n\n\n\n\n","pos":11,"type":"cell"}
 {"cell_type":"raw","id":"9b8de0","input":"Write up some descriptions for your findings here....\nFor Culmen length to depth there is minimal correlation from 30 - 42.3 there is a linear best line of fit however after 42.4 to 52.8 there is exponential growth shown. Meanwhile for length to depth there is also no correlation.\n\nFlipper length increasis with body mass. The bigger body mass of penguin is - the bigger it going to have its flippers.What\n\n","pos":52,"type":"cell"}
-{"id":0,"time":1656686355225,"type":"user"}
-{"last_load":1656685968266,"type":"file"}
+{"id":"4c0606","input":"","pos":16.5,"type":"cell"}
+{"id":0,"time":1657043564991,"type":"user"}
+{"last_load":1657032240303,"type":"file"}

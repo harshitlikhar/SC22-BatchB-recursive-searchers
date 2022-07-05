@@ -43,7 +43,7 @@
 {"cell_type":"markdown","id":"892df9","input":"## Customer Churn Prediction\n\n","pos":0,"type":"cell"}
 {"cell_type":"markdown","id":"b0ac35","input":"##### Column Statistics","pos":12,"type":"cell"}
 {"cell_type":"markdown","id":"b0f113","input":"##### Dataset Info","pos":10,"type":"cell"}
-{"cell_type":"markdown","id":"bdcdae","input":"This scatter plot shows the relationship between the age and balance of the customers, and how that affects the number of people that have exited. \n","pos":28,"type":"cell"}
+{"cell_type":"markdown","id":"bdcdae","input":"This scatter plot shows the relationship between the age and balance of the customers, and how that affects the number of people that have exited. \n\n","pos":28,"type":"cell"}
 {"cell_type":"markdown","id":"c18bd5","input":"<h4> Goal</h4>\n\n","pos":2,"type":"cell"}
 {"cell_type":"markdown","id":"c4887f","input":"##### Assessing the proportions of our target value triggers to our defaults.\n\n","pos":18,"type":"cell"}
 {"cell_type":"markdown","id":"d0baf3","input":"##### Import Dataset","pos":7,"type":"cell"}
@@ -52,5 +52,5 @@
 {"cell_type":"markdown","id":"e238bc","input":"##### Creating box-plots to examine the spread of our data among multiple variables.\n\n","pos":24,"type":"cell"}
 {"cell_type":"markdown","id":"ec7d9a","input":"##### Creating count-plots for values that wouldn't be properly visualized by box plots due to being categorical.\n\n","pos":21,"type":"cell"}
 {"cell_type":"markdown","id":"ef7d61","input":"##### Importing Required Libraries\n\n","pos":5,"type":"cell"}
-{"id":0,"time":1656694921979,"type":"user"}
-{"last_load":1656700887870,"type":"file"}
+{"id":0,"time":1657042532439,"type":"user"}
+{"last_load":1657028932623,"type":"file"}
