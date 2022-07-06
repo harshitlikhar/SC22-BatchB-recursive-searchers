@@ -72,5 +72,5 @@
 {"cell_type":"markdown","id":"f23e1f","input":"### Step 2: Do Your Research\n\nThat is a ton of columns. That is a ton of data! Where do we start? \n\nYou should probably do some research on this dataset to find out what the columns mean. I got it on kaggle - you can read about it here: [Wisconsin Breast Cancer Dataset](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data).\n\n","metadata":{"id":"XjS_4CFYxx52"},"pos":11,"type":"cell"}
 {"cell_type":"markdown","id":"f3ef06","input":"Now, create a confusion matrix! How are the results? Do we end up with more false negatives or false positives?","metadata":{"id":"Ge0IHJ7AtQI2"},"pos":64,"type":"cell"}
 {"cell_type":"markdown","id":"ff142a","input":"**TODO:** Now that our outcome column is there, we need to remove the diagnosis column that had the bad data, right? Please do so below.\n","metadata":{"id":"kXUk3fFs5VxV"},"pos":24,"type":"cell"}
-{"id":0,"time":1657048173747,"type":"user"}
-{"last_load":1657048173839,"type":"file"}
+{"id":0,"time":1657116640360,"type":"user"}
+{"last_load":1657116640231,"type":"file"}

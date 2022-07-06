@@ -20,5 +20,5 @@
 {"cell_type":"markdown","id":"be8be8","input":"**Creating box\\-plots to examine the spread of our data among multiple variables.**\n\n","pos":13,"type":"cell"}
 {"cell_type":"markdown","id":"ca5d79","input":"**Summary**\n\nThe dataset we chose includes multiple variables that describe customers at a bank. Our target is finding whether or not a customer will leave the bank, and our variable for that is Exited, with a value of 1 meaning that the customer has left, and a value of 0 meaning that the customer remains. \n\nThrough our analyzation of the correlation between variables, we found that all of the ones that we didn't remove played a small role in predicting whether or not the customer has exited or will exit \\(as seen in our heat\\-map\\). \n\nSome of the variables we chose to analyze through exploratory data analysis were the age of the customer, their estimated salary, balance, tenure, \ngender, which country they were from, whether they had a credit card or not, how active they were, and the number of products they were utilizing from the bank. \n\n","pos":19,"type":"cell"}
 {"cell_type":"markdown","id":"d97008","input":"**Importing the dataset.**\n\n","pos":2,"type":"cell"}
-{"id":0,"time":1656685758294,"type":"user"}
-{"last_load":1656713496979,"type":"file"}
+{"id":0,"time":1657119742683,"type":"user"}
+{"last_load":1657025881784,"type":"file"}
