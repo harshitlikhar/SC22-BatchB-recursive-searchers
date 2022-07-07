@@ -1,4 +1,4 @@
-{"backend_state":"ready","kernel":"ds_env","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":0},"metadata":{"colab":{"collapsed_sections":[],"name":"Cancer_detection.ipynb","provenance":[]},"language_info":{"name":"python"}},"trust":false,"type":"settings"}
+{"backend_state":"init","kernel":"ds_env","kernel_state":"idle","kernel_usage":{"cpu":0,"memory":0},"metadata":{"colab":{"collapsed_sections":[],"name":"Cancer_detection.ipynb","provenance":[]},"language_info":{"name":"python"}},"trust":false,"type":"settings"}
 {"cell_type":"code","exec_count":0,"id":"0558ac","input":"my_KNN_model.fit(x_train, y_train) #train the model on our past results x_train (inputs) and y_train (outputs)","metadata":{"id":"VseIx97TSHQP"},"pos":42,"type":"cell"}
 {"cell_type":"code","exec_count":0,"id":"09d0f7","input":"# Creating the KNN model object -- we need to tell it the number of neighbors to look at.\nk = 7 #number of neighbors to look at (look at 7 nearest neighbors)\nmy_KNN_model = KNN(n_neighbors=k)","metadata":{"id":"GzCrGDYI-4FR"},"pos":40,"type":"cell"}
 {"cell_type":"code","exec_count":0,"id":"0d9e58","input":"y_hat #these are our predictions for our x_test inputs. ","metadata":{"id":"T-ifi-bGj7fx"},"pos":45,"type":"cell"}
@@ -65,5 +65,5 @@
 {"cell_type":"markdown","id":"f23e1f","input":"### Step 2: Do Your Research\nThat is a ton of columns. That is a ton of data! Where do we start? \n\nYou should probably do some research on this dataset to find out what the columns mean. I got it on kaggle - you can read about it here: [Wisconsin Breast Cancer Dataset](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data).\n","metadata":{"id":"XjS_4CFYxx52"},"pos":11,"type":"cell"}
 {"cell_type":"markdown","id":"f3ef06","input":"Now, create a confusion matrix! How are the results? Do we end up with more false negatives or false positives?","metadata":{"id":"Ge0IHJ7AtQI2"},"pos":61,"type":"cell"}
 {"cell_type":"markdown","id":"ff142a","input":"**TODO:** Now that our outcome column is there, we need to remove the diagnosis column that had the bad data, right? Please do so below.\n","metadata":{"id":"kXUk3fFs5VxV"},"pos":22,"type":"cell"}
-{"id":0,"time":1657026319527,"type":"user"}
-{"last_load":1657026395962,"type":"file"}
+{"id":0,"time":1657206550211,"type":"user"}
+{"last_load":1657203482285,"type":"file"}
