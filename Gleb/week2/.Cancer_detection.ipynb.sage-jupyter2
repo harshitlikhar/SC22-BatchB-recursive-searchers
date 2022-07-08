@@ -80,4 +80,4 @@
 {"cell_type":"markdown","id":"f3ef06","input":"Now, create a confusion matrix! How are the results? Do we end up with more false negatives or false positives?","metadata":{"id":"Ge0IHJ7AtQI2"},"pos":67,"type":"cell"}
 {"cell_type":"markdown","id":"ff142a","input":"**TODO:** Now that our outcome column is there, we need to remove the diagnosis column that had the bad data, right? Please do so below.\n","metadata":{"id":"kXUk3fFs5VxV"},"pos":24,"type":"cell"}
 {"id":0,"time":1657116996410,"type":"user"}
-{"last_load":1657204194088,"type":"file"}
+{"last_load":1657292048976,"type":"file"}
