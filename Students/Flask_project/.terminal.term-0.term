@@ -1,0 +1,1153 @@
+(base) ]0;~/Team/Flask_project[01;34m~/Team/Flask_project[00m$ git clone https://github.com/harshitlikhar/customer-churn.git
+Cloning into 'customer-churn'...
+remote: Enumerating objects: 307, done.[K
+Receiving objects:   0% (1/307)Receiving objects:   1% (4/307)Receiving objects:   2% (7/307)Receiving objects:   3% (10/307)Receiving objects:   4% (13/307)Receiving objects:   5% (16/307)Receiving objects:   6% (19/307)Receiving objects:   7% (22/307)Receiving objects:   8% (25/307)Receiving objects:   9% (28/307)Receiving objects:  10% (31/307)Receiving objects:  11% (34/307)Receiving objects:  12% (37/307)Receiving objects:  13% (40/307)Receiving objects:  14% (43/307)Receiving objects:  15% (47/307)Receiving objects:  16% (50/307)Receiving objects:  17% (53/307)Receiving objects:  18% (56/307)Receiving objects:  19% (59/307)Receiving objects:  20% (62/307)Receiving objects:  21% (65/307)Receiving objects:  22% (68/307)Receiving objects:  23% (71/307)Receiving objects:  24% (74/307)Receiving objects:  25% (77/307)Receiving objects:  26% (80/307)Receiving objects:  27% (83/307)Receiving objects:  28% (86/307)Receiving objects:  29% (90/307)Receiving objects:  30% (93/307)Receiving objects:  31% (96/307)Receiving objects:  32% (99/307)Receiving objects:  33% (102/307)Receiving objects:  34% (105/307)Receiving objects:  35% (108/307)Receiving objects:  36% (111/307), 6.40 MiB | 12.55 MiB/sReceiving objects:  37% (114/307), 6.40 MiB | 12.55 MiB/sReceiving objects:  38% (117/307), 6.40 MiB | 12.55 MiB/sReceiving objects:  39% (120/307), 6.40 MiB | 12.55 MiB/sReceiving objects:  40% (123/307), 6.40 MiB | 12.55 MiB/sReceiving objects:  41% (126/307), 6.40 MiB | 12.55 MiB/sReceiving objects:  42% (129/307), 6.40 MiB | 12.55 MiB/sReceiving objects:  43% (133/307), 6.40 MiB | 12.55 MiB/sReceiving objects:  44% (136/307), 6.40 MiB | 12.55 MiB/sReceiving objects:  45% (139/307), 6.40 MiB | 12.55 MiB/sReceiving objects:  46% (142/307), 6.40 MiB | 12.55 MiB/sReceiving objects:  47% (145/307), 6.40 MiB | 12.55 MiB/sReceiving objects:  48% (148/307), 6.40 MiB | 12.55 MiB/sReceiving objects:  49% (151/307), 6.40 MiB | 12.55 MiB/sReceiving objects:  50% (154/307), 6.40 MiB | 12.55 MiB/sReceiving objects:  51% (157/307), 6.40 MiB | 12.55 MiB/sReceiving objects:  51% (158/307), 13.00 MiB | 12.75 MiB/sReceiving objects:  52% (160/307), 13.00 MiB | 12.75 MiB/sReceiving objects:  53% (163/307), 13.00 MiB | 12.75 MiB/sReceiving objects:  54% (166/307), 13.00 MiB | 12.75 MiB/sReceiving objects:  55% (169/307), 13.00 MiB | 12.75 MiB/sReceiving objects:  56% (172/307), 13.00 MiB | 12.75 MiB/sReceiving objects:  57% (175/307), 19.71 MiB | 12.87 MiB/sReceiving objects:  58% (179/307), 19.71 MiB | 12.87 MiB/sReceiving objects:  59% (182/307), 19.71 MiB | 12.87 MiB/sReceiving objects:  60% (185/307), 19.71 MiB | 12.87 MiB/sReceiving objects:  61% (188/307), 19.71 MiB | 12.87 MiB/sReceiving objects:  62% (191/307), 19.71 MiB | 12.87 MiB/sReceiving objects:  63% (194/307), 19.71 MiB | 12.87 MiB/sReceiving objects:  64% (197/307), 19.71 MiB | 12.87 MiB/sReceiving objects:  65% (200/307), 19.71 MiB | 12.87 MiB/sReceiving objects:  66% (203/307), 19.71 MiB | 12.87 MiB/sReceiving objects:  67% (206/307), 19.71 MiB | 12.87 MiB/sReceiving objects:  68% (209/307), 19.71 MiB | 12.87 MiB/sReceiving objects:  69% (212/307), 19.71 MiB | 12.87 MiB/sReceiving objects:  69% (213/307), 26.54 MiB | 12.99 MiB/sReceiving objects:  70% (215/307), 33.43 MiB | 13.09 MiB/sReceiving objects:  71% (218/307), 33.43 MiB | 13.09 MiB/sReceiving objects:  72% (222/307), 33.43 MiB | 13.09 MiB/sReceiving objects:  73% (225/307), 33.43 MiB | 13.09 MiB/sReceiving objects:  74% (228/307), 33.43 MiB | 13.09 MiB/sReceiving objects:  75% (231/307), 33.43 MiB | 13.09 MiB/sReceiving objects:  76% (234/307), 33.43 MiB | 13.09 MiB/sReceiving objects:  77% (237/307), 33.43 MiB | 13.09 MiB/sReceiving objects:  78% (240/307), 33.43 MiB | 13.09 MiB/sReceiving objects:  79% (243/307), 33.43 MiB | 13.09 MiB/sReceiving objects:  80% (246/307), 33.43 MiB | 13.09 MiB/sReceiving objects:  81% (249/307), 33.43 MiB | 13.09 MiB/sReceiving objects:  82% (252/307), 33.43 MiB | 13.09 MiB/sReceiving objects:  83% (255/307), 33.43 MiB | 13.09 MiB/sReceiving objects:  84% (258/307), 33.43 MiB | 13.09 MiB/sReceiving objects:  85% (261/307), 33.43 MiB | 13.09 MiB/sReceiving objects:  86% (265/307), 33.43 MiB | 13.09 MiB/sReceiving objects:  87% (268/307), 33.43 MiB | 13.09 MiB/sReceiving objects:  88% (271/307), 33.43 MiB | 13.09 MiB/sReceiving objects:  89% (274/307), 33.43 MiB | 13.09 MiB/sReceiving objects:  90% (277/307), 33.43 MiB | 13.09 MiB/sremote: Total 307 (delta 0), reused 0 (delta 0), pack-reused 307[K
+Receiving objects:  91% (280/307), 33.43 MiB | 13.09 MiB/sReceiving objects:  92% (283/307), 33.43 MiB | 13.09 MiB/sReceiving objects:  93% (286/307), 33.43 MiB | 13.09 MiB/sReceiving objects:  94% (289/307), 33.43 MiB | 13.09 MiB/sReceiving objects:  95% (292/307), 33.43 MiB | 13.09 MiB/sReceiving objects:  96% (295/307), 33.43 MiB | 13.09 MiB/sReceiving objects:  97% (298/307), 33.43 MiB | 13.09 MiB/sReceiving objects:  98% (301/307), 33.43 MiB | 13.09 MiB/sReceiving objects:  99% (304/307), 33.43 MiB | 13.09 MiB/sReceiving objects: 100% (307/307), 33.43 MiB | 13.09 MiB/sReceiving objects: 100% (307/307), 39.15 MiB | 13.27 MiB/s, done.
+Resolving deltas:   0% (0/73)Resolving deltas:   1% (1/73)Resolving deltas:   4% (3/73)Resolving deltas:   6% (5/73)Resolving deltas:  10% (8/73)Resolving deltas:  19% (14/73)Resolving deltas:  38% (28/73)Resolving deltas:  39% (29/73)Resolving deltas:  41% (30/73)Resolving deltas:  43% (32/73)Resolving deltas:  45% (33/73)Resolving deltas:  46% (34/73)Resolving deltas:  47% (35/73)Resolving deltas:  71% (52/73)Resolving deltas:  72% (53/73)Resolving deltas:  73% (54/73)Resolving deltas:  75% (55/73)Resolving deltas:  76% (56/73)Resolving deltas:  78% (57/73)Resolving deltas:  79% (58/73)Resolving deltas:  91% (67/73)Resolving deltas: 100% (73/73)Resolving deltas: 100% (73/73), done.
+(base) ]0;~/Team/Flask_project[01;34m~/Team/Flask_project[00m$ cd flask[K[K[K[K[KFla[K[K[K[K chus[K[K[Kustomer-churn/
+(base) ]0;~/Team/Flask_project/customer-churn[01;34m~/Team/Flask_project/customer-churn[00m$ python3 -m pip install -r requirements.txt
+[31mERROR: Could not open requirements file: [Errno 2] No such file or directory: 'requirements.txt'[0m
+(base) ]0;~/Team/Flask_project/customer-churn[01;34m~/Team/Flask_project/customer-churn[00m$ 
+(base) ]0;~/Team/Flask_project/customer-churn[01;34m~/Team/Flask_project/customer-churn[00m$ cd s[Kapp
+(base) ]0;~/Team/Flask_project/customer-churn/app[01;34m~/Team/Flask_project/customer-churn/app[00m$ cd apppython3 -m pip install -r requirements.txt
+Collecting Flask==1.1.4
+  Downloading Flask-1.1.4-py2.py3-none-any.whl (94 kB)
+[?25l[K     |███▌                            | 10 kB 23.5 MB/s eta 0:00:01[K     |███████                         | 20 kB 22.3 MB/s eta 0:00:01[K     |██████████▍                     | 30 kB 19.7 MB/s eta 0:00:01[K     |█████████████▉                  | 40 kB 13.5 MB/s eta 0:00:01[K     |█████████████████▎              | 51 kB 12.7 MB/s eta 0:00:01[K     |████████████████████▉           | 61 kB 13.3 MB/s eta 0:00:01[K     |████████████████████████▎       | 71 kB 14.9 MB/s eta 0:00:01[K     |███████████████████████████▊    | 81 kB 12.3 MB/s eta 0:00:01[K     |███████████████████████████████▏| 92 kB 13.5 MB/s eta 0:00:01[K     |████████████████████████████████| 94 kB 4.0 MB/s 
+[?25hCollecting gunicorn==20.1.0
+  Downloading gunicorn-20.1.0-py3-none-any.whl (79 kB)
+[?25l[K     |████▏                           | 10 kB 9.5 MB/s eta 0:00:01[K     |████████▎                       | 20 kB 15.6 MB/s eta 0:00:01[K     |████████████▍                   | 30 kB 21.1 MB/s eta 0:00:01[K     |████████████████▌               | 40 kB 25.5 MB/s eta 0:00:01[K     |████████████████████▋           | 51 kB 28.9 MB/s eta 0:00:01[K     |████████████████████████▊       | 61 kB 32.3 MB/s eta 0:00:01[K     |████████████████████████████▉   | 71 kB 24.3 MB/s eta 0:00:01[K     |████████████████████████████████| 79 kB 10.6 MB/s 
+[?25hCollecting uvicorn==0.17.6
+  Downloading uvicorn-0.17.6-py3-none-any.whl (53 kB)
+[?25l[K     |██████▏                         | 10 kB 30.8 MB/s eta 0:00:01[K     |████████████▎                   | 20 kB 37.8 MB/s eta 0:00:01[K     |██████████████████▍             | 30 kB 37.5 MB/s eta 0:00:01[K     |████████████████████████▌       | 40 kB 42.2 MB/s eta 0:00:01[K     |██████████████████████████████▋ | 51 kB 41.3 MB/s eta 0:00:01[K     |████████████████████████████████| 53 kB 4.3 MB/s 
+[?25hCollecting markupsafe==2.0.1
+  Downloading MarkupSafe-2.0.1-cp39-cp39-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (30 kB)
+Collecting click<8.0,>=5.1
+  Downloading click-7.1.2-py2.py3-none-any.whl (82 kB)
+[?25l[K     |████                            | 10 kB 31.4 MB/s eta 0:00:01[K     |████████                        | 20 kB 29.7 MB/s eta 0:00:01[K     |███████████▉                    | 30 kB 32.5 MB/s eta 0:00:01[K     |███████████████▉                | 40 kB 34.4 MB/s eta 0:00:01[K     |███████████████████▉            | 51 kB 33.2 MB/s eta 0:00:01[K     |███████████████████████▊        | 61 kB 36.4 MB/s eta 0:00:01[K     |███████████████████████████▊    | 71 kB 36.7 MB/s eta 0:00:01[K     |███████████████████████████████▊| 81 kB 37.2 MB/s eta 0:00:01[K     |████████████████████████████████| 82 kB 1.5 MB/s 
+[?25hCollecting itsdangerous<2.0,>=0.24
+  Downloading itsdangerous-1.1.0-py2.py3-none-any.whl (16 kB)
+Collecting Jinja2<3.0,>=2.10.1
+  Downloading Jinja2-2.11.3-py2.py3-none-any.whl (125 kB)
+[?25l[K     |██▋                             | 10 kB 28.9 MB/s eta 0:00:01[K     |█████▏                          | 20 kB 29.3 MB/s eta 0:00:01[K     |███████▉                        | 30 kB 31.4 MB/s eta 0:00:01[K     |██████████▍                     | 40 kB 27.4 MB/s eta 0:00:01[K     |█████████████                   | 51 kB 26.5 MB/s eta 0:00:01[K     |███████████████▋                | 61 kB 29.5 MB/s eta 0:00:01[K     |██████████████████▎             | 71 kB 31.7 MB/s eta 0:00:01[K     |████████████████████▉           | 81 kB 34.2 MB/s eta 0:00:01[K     |███████████████████████▌        | 92 kB 36.2 MB/s eta 0:00:01[K     |██████████████████████████      | 102 kB 37.9 MB/s eta 0:00:01[K     |████████████████████████████▊   | 112 kB 37.9 MB/s eta 0:00:01[K     |███████████████████████████████▎| 122 kB 37.9 MB/s eta 0:00:01[K     |████████████████████████████████| 125 kB 37.9 MB/s 
+[?25hCollecting Werkzeug<2.0,>=0.15
+  Downloading Werkzeug-1.0.1-py2.py3-none-any.whl (298 kB)
+[?25l[K     |█                               | 10 kB 31.3 MB/s eta 0:00:01[K     |██▏                             | 20 kB 36.9 MB/s eta 0:00:01[K     |███▎                            | 30 kB 42.5 MB/s eta 0:00:01[K     |████▍                           | 40 kB 47.2 MB/s eta 0:00:01[K     |█████▌                          | 51 kB 49.1 MB/s eta 0:00:01[K     |██████▋                         | 61 kB 52.2 MB/s eta 0:00:01[K     |███████▊                        | 71 kB 53.6 MB/s eta 0:00:01[K     |████████▉                       | 81 kB 54.6 MB/s eta 0:00:01[K     |█████████▉                      | 92 kB 56.2 MB/s eta 0:00:01[K     |███████████                     | 102 kB 55.9 MB/s eta 0:00:01[K     |████████████                    | 112 kB 55.9 MB/s eta 0:00:01[K     |█████████████▏                  | 122 kB 55.9 MB/s eta 0:00:01[K     |██████████████▎                 | 133 kB 55.9 MB/s eta 0:00:01[K     |███████████████▍                | 143 kB 55.9 MB/s eta 0:00:01[K     |████████████████▌               | 153 kB 55.9 MB/s eta 0:00:01[K     |█████████████████▋              | 163 kB 55.9 MB/s eta 0:00:01[K     |██████████████████▋             | 174 kB 55.9 MB/s eta 0:00:01[K     |███████████████████▊            | 184 kB 55.9 MB/s eta 0:00:01[K     |████████████████████▉           | 194 kB 55.9 MB/s eta 0:00:01[K     |██████████████████████          | 204 kB 55.9 MB/s eta 0:00:01[K     |███████████████████████         | 215 kB 55.9 MB/s eta 0:00:01[K     |████████████████████████▏       | 225 kB 55.9 MB/s eta 0:00:01[K     |█████████████████████████▎      | 235 kB 55.9 MB/s eta 0:00:01[K     |██████████████████████████▍     | 245 kB 55.9 MB/s eta 0:00:01[K     |███████████████████████████▍    | 256 kB 55.9 MB/s eta 0:00:01[K     |████████████████████████████▌   | 266 kB 55.9 MB/s eta 0:00:01[K     |█████████████████████████████▋  | 276 kB 55.9 MB/s eta 0:00:01[K     |██████████████████████████████▊ | 286 kB 55.9 MB/s eta 0:00:01[K     |███████████████████████████████▉| 296 kB 55.9 MB/s eta 0:00:01[K     |████████████████████████████████| 298 kB 55.9 MB/s 
+[?25hRequirement already satisfied: setuptools>=3.0 in /projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages (from gunicorn==20.1.0->-r requirements.txt (line 2)) (61.2.0)
+Collecting asgiref>=3.4.0
+  Downloading asgiref-3.5.2-py3-none-any.whl (22 kB)
+Collecting h11>=0.8
+  Downloading h11-0.13.0-py3-none-any.whl (58 kB)
+[?25l[K     |█████▋                          | 10 kB 29.6 MB/s eta 0:00:01[K     |███████████▎                    | 20 kB 30.0 MB/s eta 0:00:01[K     |█████████████████               | 30 kB 33.0 MB/s eta 0:00:01[K     |██████████████████████▌         | 40 kB 37.3 MB/s eta 0:00:01[K     |████████████████████████████▏   | 51 kB 38.0 MB/s eta 0:00:01[K     |████████████████████████████████| 58 kB 9.5 MB/s 
+[?25hInstalling collected packages: markupsafe, Werkzeug, Jinja2, itsdangerous, h11, click, asgiref, uvicorn, gunicorn, Flask
+Successfully installed Flask-1.1.4 Jinja2-2.11.3 Werkzeug-1.0.1 asgiref-3.5.2 click-7.1.2 gunicorn-20.1.0 h11-0.13.0 itsdangerous-1.1.0 markupsafe-2.0.1 uvicorn-0.17.6
+(base) ]0;~/Team/Flask_project/customer-churn/app[01;34m~/Team/Flask_project/customer-churn/app[00m$ python [K3 -m main
+Try to open
+
+    https://https://cocalc5.ai-camp.dev//384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on http://0.0.0.0:12345/ (Press CTRL+C to quit)
+ * Restarting with stat
+Try to open
+
+    https://https://cocalc5.ai-camp.dev//384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/
+
+
+ * Debugger is active!
+ * Debugger PIN: 133-824-439
+ * Detected change in '/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/Team/Flask_project/customer-churn/app/main.py', reloading
+ * Restarting with stat
+Try to open
+
+    https://https://cocalc17.ai-camp.dev//384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/
+
+
+ * Debugger is active!
+ * Debugger PIN: 133-824-439
+^C(base) ]0;~/Team/Flask_project/customer-churn/app[01;34m~/Team/Flask_project/customer-churn/app[00m$ python3 -m main
+Try to open
+
+    https://https://cocalc17.ai-camp.dev//384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on http://0.0.0.0:12345/ (Press CTRL+C to quit)
+ * Restarting with stat
+Try to open
+
+    https://https://cocalc17.ai-camp.dev//384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/
+
+
+ * Debugger is active!
+ * Debugger PIN: 133-824-439
+127.0.0.1 - - [13/Jul/2022 17:31:53] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 17:31:53] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/head.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 17:31:53] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/css/styles.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 17:31:54] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/correlation_map_new.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 17:31:54] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/category.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 17:31:54] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/target.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 17:31:54] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/rfc_cm.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 17:31:54] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/lg_cm.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 17:31:54] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/svm_cm.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 17:31:54] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/auc_roc1.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 17:31:54] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/pr1.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 17:31:55] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/images/log_reg.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 17:31:55] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/images/random-forest.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 17:31:55] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/images/SVM_3.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 17:31:55] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/images/me.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 17:31:55] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/Report.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 17:31:56] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/assets/favicon.ico HTTP/1.1[0m" 200 -
+^C(base) ]0;~/Team/Flask_project/customer-churn/app[01;34m~/Team/Flask_project/customer-churn/app[00m$ python3 -m main
+Try to open
+
+    https://https://cocalc17.ai-camp.dev//384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on http://0.0.0.0:12345/ (Press CTRL+C to quit)
+ * Restarting with stat
+Try to open
+
+    https://https://cocalc17.ai-camp.dev//384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/
+
+
+ * Debugger is active!
+ * Debugger PIN: 133-824-439
+127.0.0.1 - - [13/Jul/2022 17:36:50] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/aos/aos.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/boxicons/css/boxicons.min.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/bootstrap-icons/bootstrap-icons.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/glightbox/css/glightbox.min.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/swiper/swiper-bundle.min.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/css/style.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/remixicon/remixicon.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/HeatmapGlebik.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Scatplt,Age,Bal,Chur.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/pie.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Active,Exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/geo,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/gender,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/xg_reg_cf.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/boxplt.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/log_reg_rfc.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/log_reg_dt.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/log_reg_cf.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/aos/aos.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/ai.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/ccp.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/glightbox/js/glightbox.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/isotope-layout/isotope.pkgd.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/swiper/swiper-bundle.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/waypoints/noframework.waypoints.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/php-email-form/validate.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/js/main.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/skills.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/img_xg.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/img_rf.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/img_dt.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/img_svm.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Keshav.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Sus.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Aakriti.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Yoonchul.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Matthee.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/BaldDude.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/EricB.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:36:52] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/favicon.png HTTP/1.1[0m" 404 -
+^C(base) ]0;~/Team/Flask_project/customer-churn/app[01;34m~/Team/Flask_project/customer-churn/app[00m$ python3 -m main
+Try to open
+
+    https://https://cocalc17.ai-camp.dev//384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on http://0.0.0.0:12345/ (Press CTRL+C to quit)
+ * Restarting with stat
+Try to open
+
+    https://https://cocalc17.ai-camp.dev//384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/
+
+
+ * Debugger is active!
+ * Debugger PIN: 133-824-439
+127.0.0.1 - - [13/Jul/2022 17:40:43] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 17:40:43] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/aos/aos.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:40:43] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/bootstrap-icons/bootstrap-icons.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:40:43] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:40:43] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/boxicons/css/boxicons.min.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:40:43] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/remixicon/remixicon.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:40:43] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/glightbox/css/glightbox.min.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:40:43] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/swiper/swiper-bundle.min.css HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:40:43] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/HeatmapGlebik.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:40:43] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/css/style.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 17:40:43] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Scatplt,Age,Bal,Chur.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:40:43] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/pie.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:40:43] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/gender,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:40:43] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Active,Exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:40:43] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/geo,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:40:43] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/xg_reg_cf.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:40:43] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/boxplt.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:40:43] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/log_reg_rfc.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:40:43] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/log_reg_dt.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:40:43] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/log_reg_cf.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:40:43] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/aos/aos.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:40:43] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/ai.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:40:43] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/glightbox/js/glightbox.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:40:43] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/ccp.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:40:43] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:40:43] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/isotope-layout/isotope.pkgd.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:40:43] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/swiper/swiper-bundle.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:40:44] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/waypoints/noframework.waypoints.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:40:44] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/php-email-form/validate.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:40:44] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/js/main.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:40:44] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/img_xg.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:40:44] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/skills.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:40:44] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/img_rf.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:40:44] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/img_dt.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:40:44] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/img_svm.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:40:44] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Sus.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:40:44] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Keshav.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:40:44] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Aakriti.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:40:44] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Matthee.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:40:44] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Yoonchul.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:40:44] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/EricB.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:40:44] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/BaldDude.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:40:44] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/img/cta-bg.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 17:44:51] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 17:44:52] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/swiper/swiper-bundle.min.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 17:44:52] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/remixicon/remixicon.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 17:44:52] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/aos/aos.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:44:52] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:44:52] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/isotope-layout/isotope.pkgd.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:44:52] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/glightbox/js/glightbox.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:44:52] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/HeatmapGlebik.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:44:52] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Active,Exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:44:52] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/pie.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:44:52] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Scatplt,Age,Bal,Chur.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:44:52] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/gender,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:44:52] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/geo,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:44:52] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/boxplt.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:44:52] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/xg_reg_cf.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:44:52] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/log_reg_rfc.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:44:52] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/log_reg_cf.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:44:52] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/log_reg_dt.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:44:52] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/remixicon/remixicon.woff2?t=1590207869815 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 17:44:52] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/swiper/swiper-bundle.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:44:52] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/waypoints/noframework.waypoints.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:44:52] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/js/main.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:44:52] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/php-email-form/validate.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:44:52] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/ai.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:44:52] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/ccp.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:44:52] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/skills.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:44:52] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/img_xg.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:44:52] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/img_dt.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:44:52] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/img_rf.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:44:52] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/img_svm.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:44:52] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Keshav.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:44:52] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Matthee.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:44:52] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Aakriti.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:44:52] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Sus.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:44:52] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/EricB.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:44:52] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Yoonchul.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:44:52] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/BaldDude.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:50:49] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 17:50:49] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/aos/aos.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 17:50:49] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 17:50:49] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/boxicons/css/boxicons.min.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 17:50:49] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/glightbox/css/glightbox.min.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 17:50:49] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/bootstrap-icons/bootstrap-icons.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 17:50:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/aos/aos.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:50:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/HeatmapGlebik.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:50:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/pie.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:50:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/gender,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:50:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Scatplt,Age,Bal,Chur.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:50:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Active,Exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:50:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/geo,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:50:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/boxplt.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:50:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/xg_reg_cf.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:50:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/log_reg_rfc.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:50:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/log_reg_dt.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:50:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/log_reg_cf.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:50:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:50:49] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/boxicons/fonts/boxicons.woff2 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 17:50:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/ai.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:50:49] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?a74547b2f0863226942ff8ded57db345 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 17:50:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/ccp.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:50:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/glightbox/js/glightbox.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:50:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/isotope-layout/isotope.pkgd.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:50:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/swiper/swiper-bundle.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:50:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/waypoints/noframework.waypoints.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:50:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/php-email-form/validate.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:50:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/js/main.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:50:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/skills.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:50:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/img_xg.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:50:50] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/img_rf.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:50:50] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/img_dt.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:50:50] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/img_svm.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:50:50] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Keshav.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:50:50] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Aakriti.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:50:50] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Sus.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:50:50] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Matthee.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:50:50] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/EricB.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:50:50] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Yoonchul.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:50:50] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/BaldDude.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:50:50] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/img/favicon.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 17:55:35] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 17:55:35] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/HeatmapGlebik.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:55:35] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Scatplt,Age,Bal,Chur.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:55:35] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/pie.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:55:36] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/gender,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:55:36] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/geo,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:55:36] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Active,Exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:55:36] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/img/xg_reg_cf.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:55:36] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/boxplt.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:55:36] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/log_reg_dt.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:55:36] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/log_reg_rfc.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:55:36] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/log_reg_cf.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:55:36] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/aos/aos.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:55:36] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/ai.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:55:36] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/img/ccp.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 17:55:36] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:55:36] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/glightbox/js/glightbox.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:55:36] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/isotope-layout/isotope.pkgd.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:55:36] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/swiper/swiper-bundle.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:55:36] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/waypoints/noframework.waypoints.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:55:36] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/php-email-form/validate.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:55:36] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/js/main.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:55:36] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/img_xg.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:55:36] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/skills.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:55:36] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/img_rf.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:55:36] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/img_svm.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:55:36] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/img_dt.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:55:36] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Keshav.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:55:36] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Matthee.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:55:36] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Aakriti.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:55:36] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Sus.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:55:36] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/EricB.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:55:36] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Yoonchul.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 17:55:36] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/BaldDude.jpg HTTP/1.1[0m" 404 -
+
+
+
+127.0.0.1 - - [13/Jul/2022 18:04:56] "[35m[1mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/ HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/Team/Flask_project/customer-churn/app/main.py", line 19, in home
+    return render_template('index.html')
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/templating.py", line 137, in render_template
+    return _render(
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/templating.py", line 120, in _render
+    rv = template.render(context)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/Team/Flask_project/customer-churn/app/templates/index.html", line 305, in top-level template code
+    <iframe width="1000" height="600" title="Correlation Table of Features" src="{{url_for(static, filename='HeatmapGlebik.html')}}"></iframe>
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/helpers.py", line 318, in url_for
+    if endpoint[:1] == ".":
+jinja2.exceptions.UndefinedError: 'static' is undefined
+127.0.0.1 - - [13/Jul/2022 18:04:56] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:04:56] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:04:57] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:04:57] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:04:57] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:04:57] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:08:30] "[35m[1mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/ HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/Team/Flask_project/customer-churn/app/main.py", line 19, in home
+    return render_template('index.html')
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/templating.py", line 137, in render_template
+    return _render(
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/templating.py", line 120, in _render
+    rv = template.render(context)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/Team/Flask_project/customer-churn/app/templates/index.html", line 15, in top-level template code
+    <link href="{{url_for('../static', filename='img/apple-touch-icon.png')}}" rel="apple-touch-icon" />
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/werkzeug/routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint './static' with values ['filename']. Did you mean 'static' instead?
+127.0.0.1 - - [13/Jul/2022 18:08:30] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:08:30] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:08:30] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:08:31] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:08:31] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:08:31] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:08:57] "[35m[1mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/ HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/Team/Flask_project/customer-churn/app/main.py", line 19, in home
+    return render_template('index.html')
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/templating.py", line 137, in render_template
+    return _render(
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/templating.py", line 120, in _render
+    rv = template.render(context)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/Team/Flask_project/customer-churn/app/templates/index.html", line 16, in top-level template code
+    <link href="{{url_for('../static', filename='img/favicon.png')}}" rel="icon" />
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/werkzeug/routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint './static' with values ['filename']. Did you mean 'static' instead?
+127.0.0.1 - - [13/Jul/2022 18:08:57] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:08:57] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:08:57] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:08:57] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:08:57] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:08:57] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:12:24] "[35m[1mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/ HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/Team/Flask_project/customer-churn/app/main.py", line 19, in home
+    return render_template('index.html')
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/templating.py", line 137, in render_template
+    return _render(
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/templating.py", line 120, in _render
+    rv = template.render(context)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/Team/Flask_project/customer-churn/app/templates/index.html", line 15, in top-level template code
+    <link href="{{url_for('static/img', filename='apple-touch-icon.png')}}" rel="apple-touch-icon" />
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/werkzeug/routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'static/img' with values ['filename']. Did you mean 'static' instead?
+127.0.0.1 - - [13/Jul/2022 18:12:24] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:12:24] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:12:24] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:12:24] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:12:24] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:12:25] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+^C(base) ]0;~/Team/Flask_project/customer-churn/app[01;34m~/Team/Flask_project/customer-churn/app[00m$ python3 -m main
+Try to open
+
+    https://https://cocalc17.ai-camp.dev//384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on http://0.0.0.0:12345/ (Press CTRL+C to quit)
+ * Restarting with stat
+Try to open
+
+    https://https://cocalc17.ai-camp.dev//384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/
+
+
+ * Debugger is active!
+ * Debugger PIN: 133-824-439
+127.0.0.1 - - [13/Jul/2022 18:13:11] "[35m[1mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/ HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/Team/Flask_project/customer-churn/app/main.py", line 19, in home
+    return render_template('index.html')
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/templating.py", line 137, in render_template
+    return _render(
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/templating.py", line 120, in _render
+    rv = template.render(context)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/Team/Flask_project/customer-churn/app/templates/index.html", line 15, in top-level template code
+    <link href="{{url_for('static/img', filename='apple-touch-icon.png')}}" rel="apple-touch-icon" />
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/werkzeug/routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'static/img' with values ['filename']. Did you mean 'static' instead?
+127.0.0.1 - - [13/Jul/2022 18:13:11] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:13:11] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:13:11] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:13:11] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:13:11] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:13:11] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+^C(base) ]0;~/Team/Flask_project/customer-churn/app[01;34m~/Team/Flask_project/customer-churn/app[00m$ python3 -m main
+Try to open
+
+    https://https://cocalc17.ai-camp.dev//384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on http://0.0.0.0:12345/ (Press CTRL+C to quit)
+ * Restarting with stat
+Try to open
+
+    https://https://cocalc17.ai-camp.dev//384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/
+
+
+ * Debugger is active!
+ * Debugger PIN: 133-824-439
+127.0.0.1 - - [13/Jul/2022 18:14:05] "[35m[1mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/ HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/Team/Flask_project/customer-churn/app/main.py", line 19, in home
+    return render_template('index.html')
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/templating.py", line 137, in render_template
+    return _render(
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/templating.py", line 120, in _render
+    rv = template.render(context)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/Team/Flask_project/customer-churn/app/templates/index.html", line 16, in top-level template code
+    <link href="{{url_for('static/img', filename='favicon.png')}}" rel="icon" />
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/werkzeug/routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'static/img' with values ['filename']. Did you mean 'static' instead?
+127.0.0.1 - - [13/Jul/2022 18:14:05] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:14:05] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:14:05] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:14:06] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:14:06] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:14:06] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+^C(base) ]0;~/Team/Flask_project/customer-churn/app[01;34m~/Team/Flask_project/customer-churn/app[00m$ python3 -m main
+Try to open
+
+    https://https://cocalc17.ai-camp.dev//384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on http://0.0.0.0:12345/ (Press CTRL+C to quit)
+ * Restarting with stat
+Try to open
+
+    https://https://cocalc17.ai-camp.dev//384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/
+
+
+ * Debugger is active!
+ * Debugger PIN: 133-824-439
+127.0.0.1 - - [13/Jul/2022 18:14:48] "[35m[1mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/ HTTP/1.1[0m" 500 -
+Traceback (most recent call last):
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 2464, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 2450, in wsgi_app
+    response = self.handle_exception(e)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1867, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/Team/Flask_project/customer-churn/app/main.py", line 19, in home
+    return render_template('index.html')
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/templating.py", line 137, in render_template
+    return _render(
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/templating.py", line 120, in _render
+    rv = template.render(context)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/jinja2/environment.py", line 1090, in render
+    self.environment.handle_exception()
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/jinja2/environment.py", line 832, in handle_exception
+    reraise(*rewrite_traceback_stack(source=source))
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/jinja2/_compat.py", line 28, in reraise
+    raise value.with_traceback(tb)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/Team/Flask_project/customer-churn/app/templates/index.html", line 34, in top-level template code
+    <link href="{{url_for('static/css', filename='style.css')}}" rel="stylesheet" />
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/helpers.py", line 370, in url_for
+    return appctx.app.handle_url_build_error(error, endpoint, values)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/app.py", line 2216, in handle_url_build_error
+    reraise(exc_type, exc_value, tb)
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/flask/helpers.py", line 357, in url_for
+    rv = url_adapter.build(
+  File "/projects/384affd7-8fb5-487a-a2bf-30e2102843d9/miniconda3/lib/python3.9/site-packages/werkzeug/routing.py", line 2179, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.BuildError: Could not build url for endpoint 'static/css' with values ['filename']. Did you mean 'static' instead?
+127.0.0.1 - - [13/Jul/2022 18:14:48] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:14:48] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:14:48] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:14:48] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:14:48] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:14:48] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:15:36] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:15:37] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/aos/aos.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:15:37] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/isotope-layout/isotope.pkgd.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:15:37] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/waypoints/noframework.waypoints.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:15:37] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:15:37] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/glightbox/js/glightbox.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:15:37] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/swiper/swiper-bundle.min.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:15:37] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/HeatmapGlebik.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:15:37] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Scatplt,Age,Bal,Chur.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:15:37] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/pie.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:15:37] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/gender,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:15:37] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Active,Exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:15:37] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/geo,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:15:37] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/boxplt.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:15:37] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/log_reg_rfc.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:15:37] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/log_reg_dt.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:15:37] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/xg_reg_cf.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:15:37] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/log_reg_cf.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:15:37] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/ai.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:15:37] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/vendor/php-email-form/validate.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:15:37] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/skills.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:15:37] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/js/main.js HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:15:37] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/img/img_xg.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:15:38] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/img/img_rf.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:15:38] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/img/img_dt.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:15:38] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/img_svm.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:15:38] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Keshav.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:15:38] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Sus.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:15:38] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Aakriti.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:15:38] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Matthee.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:15:38] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/BaldDude.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:15:38] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Yoonchul.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:15:38] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/EricB.jpg HTTP/1.1[0m" 404 -
+^C(base) ]0;~/Team/Flask_project/customer-churn/app[01;34m~/Team/Flask_project/customer-churn/app[00m$ python3 -m main
+Try to open
+
+    https://https://cocalc17.ai-camp.dev//384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on http://0.0.0.0:12345/ (Press CTRL+C to quit)
+ * Restarting with stat
+Try to open
+
+    https://https://cocalc17.ai-camp.dev//384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/
+
+
+ * Debugger is active!
+ * Debugger PIN: 133-824-439
+127.0.0.1 - - [13/Jul/2022 18:18:45] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:18:45] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/url_for('static',%20filename='vendor/aos/aos.js')%7D%7D HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:18:45] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/url_for('static',%20filename='vendor/bootstrap/js/bootstrap.bundle.min.js')%7D%7D HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:18:45] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/url_for('static',%20filename='vendor/glightbox/js/glightbox.min.js')%7D%7D HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:18:45] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/url_for('static',%20filename='vendor/swiper/swiper-bundle.min.js')%7D%7D HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:18:45] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/url_for('static',%20filename='vendor/isotope-layout/isotope.pkgd.min.js')%7D%7D HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:18:45] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/url_for('static',%20filename='vendor/waypoints/noframework.waypoints.js')%7D%7D HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:18:45] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Scatplt,Age,Bal,Chur.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:18:45] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/pie.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:18:45] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Active,Exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:18:45] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/gender,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:18:45] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/geo,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:18:45] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/boxplt.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:18:45] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/log_reg_cf.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:18:45] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/ai.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:18:45] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/url_for('static',%20filename='vendor/php-email-form/validate.js')%7D%7D HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:18:45] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/skills.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:18:45] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/url_for('static',%20filename='js/main.js')%7D%7D HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:18:45] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/url_for('static',%20filename='vendor/aos/aos.js')%7D%7D HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:18:45] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Keshav.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:18:45] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/img_svm.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:18:45] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Aakriti.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:18:45] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Sus.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:18:45] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Matthee.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:18:46] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/EricB.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:18:46] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Yoonchul.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:18:46] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/BaldDude.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:18:47] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/url_for('static',%20filename='vendor/aos/aos.js')%7D%7D HTTP/1.1[0m" 404 -
+^C(base) ]0;~/Team/Flask_project/customer-churn/app[01;34m~/Team/Flask_project/customer-churn/app[00m$ python3 -m main
+Try to open
+
+    https://https://cocalc17.ai-camp.dev//384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on http://0.0.0.0:12345/ (Press CTRL+C to quit)
+ * Restarting with stat
+Try to open
+
+    https://https://cocalc17.ai-camp.dev//384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/
+
+
+ * Debugger is active!
+ * Debugger PIN: 133-824-439
+127.0.0.1 - - [13/Jul/2022 18:21:30] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:21:30] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/aos/aos.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:21:30] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:21:30] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/glightbox/js/glightbox.min.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:21:30] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/swiper/swiper-bundle.min.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:21:30] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/waypoints/noframework.waypoints.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:21:30] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/isotope-layout/isotope.pkgd.min.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:21:30] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Scatplt,Age,Bal,Chur.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:21:30] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/pie.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:21:30] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/gender,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:21:30] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Active,Exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:21:30] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/boxplt.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:21:31] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/geo,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:21:31] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/log_reg_cf.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:21:31] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/ai.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:21:31] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/php-email-form/validate.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:21:31] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/js/main.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:21:31] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/skills.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:21:31] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/img_svm.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:21:31] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Keshav.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:21:31] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Sus.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:21:31] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Aakriti.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:21:31] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Matthee.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:21:31] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/EricB.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:21:31] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Yoonchul.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:21:31] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/BaldDude.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:26:15] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:26:15] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/ai.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:26:15] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Keshav.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:26:15] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Sus.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:26:15] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/img_svm.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:26:15] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/skills.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:26:15] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/Scatplt%2CAge%2CBal%2CChur.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:26:15] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/pie.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:26:15] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/gender,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:26:15] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/geo,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:26:15] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/boxplt.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:26:15] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Active,Exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:26:15] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/log_reg_cf.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:26:15] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Aakriti.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:26:15] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Matthee.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:26:15] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/EricB.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:26:15] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Yoonchul.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:26:15] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/BaldDude.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:26:32] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:26:33] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/aos/aos.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:26:33] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/bootstrap-icons/bootstrap-icons.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:26:33] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:26:33] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/remixicon/remixicon.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:26:33] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/boxicons/css/boxicons.min.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:26:33] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/glightbox/css/glightbox.min.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:26:33] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/swiper/swiper-bundle.min.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:26:33] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/css/style.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:26:33] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/HeatmapGlebik.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:26:33] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/Scatplt%2CAge%2CBal%2CChur.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:26:33] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/pie.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:26:33] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/gender,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:26:33] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Active,Exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:26:33] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/geo,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:26:33] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/boxplt.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:26:33] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/xg_reg_cf.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:26:33] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/log_reg_rfc.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:26:33] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/log_reg_dt.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:26:33] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/log_reg_cf.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:26:33] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/aos/aos.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:26:33] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/boxicons/fonts/boxicons.woff2 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:26:34] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/remixicon/remixicon.woff2?t=1590207869815 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:26:34] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?a74547b2f0863226942ff8ded57db345 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:26:34] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/ai.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:26:34] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:26:34] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/glightbox/js/glightbox.min.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:26:34] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/isotope-layout/isotope.pkgd.min.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:26:34] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/swiper/swiper-bundle.min.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:26:34] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/waypoints/noframework.waypoints.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:26:34] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/php-email-form/validate.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:26:34] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/js/main.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:26:34] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/skills.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:26:34] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/img/img_xg.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:26:34] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/img/img_rf.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:26:34] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/img_svm.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:26:34] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/img/img_dt.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:26:34] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Keshav.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:26:34] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Sus.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:26:34] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Aakriti.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:26:34] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Matthee.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:26:34] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/EricB.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:26:34] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Yoonchul.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:26:34] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/BaldDude.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:26:34] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/img/cta-bg.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:26:37] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/img/favicon.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:26:42] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/img/favicon.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:27:24] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:27:24] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/ai.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:27:24] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/gender,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:27:24] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/pie.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:27:24] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/skills.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:27:24] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/img_svm.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:27:24] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/boxplt.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:27:24] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Active,Exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:27:24] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/geo,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:27:24] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/log_reg_cf.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:27:24] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Sus.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:27:24] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Keshav.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:27:24] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Aakriti.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:27:24] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Matthee.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:27:24] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/EricB.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:27:24] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Yoonchul.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:27:24] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/BaldDude.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:27:30] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:27:30] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/aos/aos.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:27:30] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:27:30] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/bootstrap-icons/bootstrap-icons.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:27:30] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/boxicons/css/boxicons.min.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:27:30] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/glightbox/css/glightbox.min.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:27:30] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/remixicon/remixicon.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:27:30] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/swiper/swiper-bundle.min.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:27:30] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/css/style.css HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:27:30] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/HeatmapGlebik.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:27:30] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/Scatplt%2CAge%2CBal%2CChur.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:27:30] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/pie.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:27:30] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/gender,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:27:30] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Active,Exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:27:30] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/geo,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:27:30] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/xg_reg_cf.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:27:30] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/log_reg_rfc.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:27:30] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/boxplt.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:27:30] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/log_reg_dt.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:27:30] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/log_reg_cf.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:27:31] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/aos/aos.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:27:31] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:27:31] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/boxicons/fonts/boxicons.woff2 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:27:31] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/remixicon/remixicon.woff2?t=1590207869815 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:27:32] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/bootstrap-icons/fonts/bootstrap-icons.woff2?a74547b2f0863226942ff8ded57db345 HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:27:32] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/ai.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:27:32] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/glightbox/js/glightbox.min.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:27:32] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/isotope-layout/isotope.pkgd.min.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:27:32] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/swiper/swiper-bundle.min.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:27:32] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/waypoints/noframework.waypoints.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:27:32] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/vendor/php-email-form/validate.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:27:32] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/js/main.js HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:27:32] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/skills.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:27:32] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/img/img_rf.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:27:32] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/img/img_xg.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:27:32] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/img/img_dt.jpeg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:27:32] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Keshav.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:27:32] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/img_svm.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:27:32] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Sus.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:27:32] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Aakriti.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:27:32] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Matthee.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:27:32] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/EricB.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:27:32] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Yoonchul.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:27:32] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/BaldDude.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:27:32] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/img/cta-bg.jpg HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:27:39] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/img/favicon.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:30:48] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:30:48] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/ai.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:30:48] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/skills.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:30:48] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Sus.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:30:48] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/img_svm.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:30:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/pie.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:30:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/gender,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:30:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Active,Exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:30:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/geo,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:30:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/boxplt.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:30:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/ HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:30:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/log_reg_cf.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:30:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Aakriti.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:30:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Matthee.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:30:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/EricB.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:30:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Yoonchul.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:30:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/BaldDude.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:31:53] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:31:53] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/ai.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:31:53] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/skills.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:31:53] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/img_svm.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:31:53] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/ HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:31:53] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/gender,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:31:53] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Active,Exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:31:53] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/geo,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:31:53] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/boxplt.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:31:53] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/log_reg_cf.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:31:53] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Sus.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:31:53] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Aakriti.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:31:53] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Matthee.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:31:53] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/EricB.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:31:53] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Yoonchul.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:31:53] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/BaldDude.jpg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:37:53] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:37:53] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/pie.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:37:53] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/gender,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:37:53] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Active,Exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:37:53] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/geo,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:37:53] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/ai.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:37:53] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/boxplt.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:37:53] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/log_reg_cf.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:37:53] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/skills.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:37:53] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/img_svm.jpeg HTTP/1.1[0m" 404 -
+^[[A^C(base) ]0;~/Team/Flask_project/customer-churn/app[01;34m~/Team/Flask_project/customer-churn/app[00m$ python3 -m main
+Try to open
+
+    https://https://cocalc17.ai-camp.dev//384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/
+
+
+ * Serving Flask app "main" (lazy loading)
+ * Environment: production
+[31m   WARNING: This is a development server. Do not use it in a production deployment.[0m
+[2m   Use a production WSGI server instead.[0m
+ * Debug mode: on
+ * Running on http://0.0.0.0:12345/ (Press CTRL+C to quit)
+ * Restarting with stat
+Try to open
+
+    https://https://cocalc17.ai-camp.dev//384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/
+
+
+ * Debugger is active!
+ * Debugger PIN: 133-824-439
+127.0.0.1 - - [13/Jul/2022 18:38:48] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:38:48] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/gender,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:38:48] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Active,Exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:38:48] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/ai.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:38:48] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/boxplt.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:38:48] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/geo,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:38:48] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/log_reg_cf.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:38:48] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/skills.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:38:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/img_svm.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:39:51] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:39:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/ai.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:39:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/img_svm.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:39:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/skills.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:39:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/gender,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:39:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Active,Exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:39:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/geo,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:39:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/boxplt.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:39:51] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/log_reg_cf.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:40:40] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:40:40] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/ai.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:40:40] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/skills.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:40:40] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/img_svm.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:40:40] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/gender,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:40:40] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Active,Exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:40:40] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/boxplt.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:40:40] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/geo,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:40:40] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/log_reg_cf.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:41:10] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:41:10] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/ai.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:41:11] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/img_svm.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:41:11] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/skills.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:41:11] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/gender,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:41:11] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Active,Exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:41:11] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/geo,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:41:11] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/boxplt.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:41:11] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/log_reg_cf.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:48:48] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:48:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/skills.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:48:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/ai.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:48:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/img_svm.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:48:49] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/gender%2Cexited.html HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:48:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/geo,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:48:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Active,Exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:48:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/boxplt.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:48:49] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/log_reg_cf.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:50:10] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:50:10] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/ai.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:50:10] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/img_svm.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:50:10] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/skills.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:50:10] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Active,Exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:50:10] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/geo,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:50:10] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/boxplt.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:50:10] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/log_reg_cf.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:50:13] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/static/img/ai.png HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:50:45] "[37mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/ HTTP/1.1[0m" 200 -
+127.0.0.1 - - [13/Jul/2022 18:50:45] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/skills.png HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:50:45] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/img/img_svm.jpeg HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:50:45] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/Active,Exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:50:45] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/geo,exited.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:50:45] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/boxplt.html HTTP/1.1[0m" 404 -
+127.0.0.1 - - [13/Jul/2022 18:50:45] "[33mGET /384affd7-8fb5-487a-a2bf-30e2102843d9/port/12345/assets/log_reg_cf.html HTTP/1.1[0m" 404 -
+(base) ]0;~/Team/Flask_project[01;34m~/Team/Flask_project[00m$ 

@@ -21,5 +21,5 @@
 {"cell_type":"markdown","id":"d0d2d0","input":"We may want to convert to different data types for processing data. Strings are one way to process numbers digit by digit.","metadata":{"id":"86uGwcGTH_Hb"},"pos":5,"state":"done","type":"cell"}
 {"cell_type":"markdown","id":"fcb8e0","input":"## Step 3: See if the user succeeds in first try\n\nIn this part, we need to check `if` the user's guess is correct and equal to the random four-digit integer the computer generated.\n\nIf the user's guess is correct, you should output something like: \n\n> \"Great! You only needed 1 try! You're a Mastermind!\"\n\nElse, then the computer hints by revealing which digits or numbers the user got correct.\n\n","metadata":{"id":"gxclhNPSFYdB"},"pos":14,"state":"done","type":"cell"}
 {"end":1656687275380,"exec_count":7,"id":"6341b2","input":"num1 = random.randint(1000,9999)\nprint(num1)","kernel":"ds_env","output":{"0":{"name":"stdout","text":"9438\n"}},"pos":11.5,"start":1656687275375,"state":"done","type":"cell"}
-{"id":0,"time":1657637264844,"type":"user"}
+{"id":0,"time":1657735075726,"type":"user"}
 {"last_load":1656686538811,"type":"file"}
